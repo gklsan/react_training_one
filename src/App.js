@@ -6,11 +6,13 @@ import $ from 'jquery' ;   // $  npm install jquery
 import repoList from './datas/repoList.json';
 import Galaxy from "./components/Galaxy";
 import Hoc from "./components/Hoc";
+import BtnHook from "./components/BtnHook";
 
 function App() {
 
   return(
     <div>
+      <BtnHook/>
       <Hoc />
       <Galaxy />
       <UserGist source="https://api.github.com/users/octocat/gists" />
