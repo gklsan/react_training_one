@@ -7,11 +7,13 @@ import repoList from './datas/repoList.json';
 import Galaxy from "./components/Galaxy";
 import Hoc from "./components/Hoc";
 import BtnHook from "./components/BtnHook";
+import ReduxCounter from "./components/ReduxCounter";
 
 function App() {
 
   return(
     <div>
+      <ReduxCounter/>
       <BtnHook/>
       <Hoc />
       <Galaxy />
